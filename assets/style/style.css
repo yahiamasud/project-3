@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300&family=Passions+Conflict&display=swap');
+
+body{ 
+
+ box-sizing: border-box;
+}
+.container{
+    width:1110px;
+    margin:0 auto;
+}
+.main-but{
+    font-family:'Manrope', sans-serif; 
+    font-size:14px;
+    line-height:24px;
+    border:none;
+    border-radius:6px;
+    background-color: #185CFF;
+    padding: 10px 13px ;
+}
+/* ========================================== */
+/*====this is the header start ====*/
+.wrapr{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:41px;
+    padding-bottom:41px;
+    
+}   
+.container.wrapr.long{
+ padding-left:0px;
+ 
+}.nav{
+    font-family:;
+
+}
+.nav .navbar-nav{
+ display: flex;
+} 
+
+.nav .navbar-nav .nav-item{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.nav .navbar-nav .nav-item:first-child {
+    padding-left:0px;
+}
+
+.nav .navbar-nav .nav-item.nav-item:last-child{
+    padding-right:0px;
+}
+
+.nav .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    font-size:14px ;
+    font-family: ; 
+    color: gray;
+    Font-style: SemiBold;
+}
+
+.nav .navbar-nav .nav-item .nav-link.active{
+    color:#292D33;
+}
+
+.nav .navbar-nav .nav-item.nav-link:hover{
+    color:#292D33;
+}
+
+
+/*====this is the header start 
+====*/
+
+/*====this is the main start 
+====*/
+
+
+/* ========================================== */
+/*===========this is a section descriptjion==============*/
+.warp-description{
+   display: flex;
+   
+    
+}
+.warp-description .titel-description h1{
+    font-family:"Manrope";
+    font-weight:800;
+    font-size:46px;
+    line-height:60px;
+    color: #292D33;
+    width:540px;
+    padding-right:15px;
+    padding-top:75px;
+    padding-bottom:15px;
+   
+}
+.warp-description .titel-description p{
+    Font-size: 20px;
+    color:#9497A1;
+    padding-top:15px;
+    padding-right:15px;
+    padding-bottom:25px;
+    Line-height: 33px;
+    Line-height: 121%;
+    padding-right:15px;
+    width:540px;
+}
+.warp-description{
+   
+ 
+}
+
+.warp-description .description-img .img-fluid{
+    width:100%;
+    height:auto;
+    padding-left:15px;
+    padding-left:15px;
+}
+/* ========================================== */
+/*===========this is a section descriptjion line-separator==============*/
+.container-fluid{
+  margin-top:12px;
+    border-top: 1px solid #F1F6FA ;
+}
+/* ========================================== */
+/*---this is a section clients logos--*/
+.warpr-logos{
+    display: flex;
+}
+.img-logos{
+    width:185px;
+    height:132px;
+}
+/* ========================================== */
+/*---this is a section clients card--*/
+.warp-card{
+   text-align: center;
+   background-color:rgba(24, 92, 255, 0.04);
+}
+.warp-card .clinents-text{
+    padding-top:100px;
+     width:540px;
+     height: 249px;
+     margin: 0 auto;  
+}
+.warp-card .clinents-text
+h1{
+ font-family:"Manrope";  
+ font-weight:800;
+ font-size:46px;
+ font-style:Bold;
+ line-height:60px;
+ color:#292D33 ;
+ line-height:60px;
+ padding-bottom:15px;
+}
+.warp-card .clinents-text
+p{  
+    font-family:Open sans-serif;
+    font-size: 20px;
+    line-height:33px;
+    color: #9497A1;
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.warp-card .box-cord{
+   display: flex;
+   width:1110px;
+   height:353px;
+   justify-content: center;
+   padding-top:25px;
+   text-align: left;
+   padding-bottom:100px;
+   
+}
+.warp-card .box-cord .card-1{
+    background-color:white;
+    width:350px;
+    height:353px;
+    margin:15px;
+    padding-right:35px;
+    padding-left:35px;
+    padding-bottom: 46px;
+    padding-top:8px;
+    
+}
+.warp-card .box-cord .card-1 img{
+    padding-left:5.2px;
+    padding-top:51px;
+    padding-bottom:22.1px;
+}
+.warp-card .box-cord .card-1 h2{
+    font-size:22px ;
+    font-family:"Manrope";
+    font-weight:800;
+    color: black;
+    font-family: ;
+    padding-top:22.1px;
+    padding-bottom:8px;
+
+}
+.warp-card .box-cord .card-1 p{
+    font-size:16px;
+    line-height:28px;
+    padding-top:8px;
+    color:#9497A1 ;
+}
+/* ====================================================== */
+/*---this is a section the newest business--*/
+
+
+.container-fluid{
+   
+}
+/* ==================================================== */
+/*---this is a section the newest business one--*/
+.container-fluid .thenewest-text-one{
+    width:1110px;
+    display: flex;
+    margin:0 auto;
+    padding-bottom:15px;
+   
+}
+.container-fluid .thenewest-text-one .newest-titel h1{
+    padding-top:202px;
+    font-family:"Manrope";
+    width:540px;
+    height:120px;
+    font-size:46px;
+    line-height:60px;
+    font-weight:800;
+    padding-bottom:15px;
+    
+}
+.container-fluid .thenewest-text-one .newest-titel p{
+    width:540px;
+    height:132px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:33px;
+    font-weight:400;
+    color:#9497A1;
+    font-size:20px;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+.container-fluid .thenewest-text-one .newest-img img {
+    padding-top:90px;
+    padding-left:95px
+}
+
+
+/* ============================================== */
+/*---this is a section the newest business two--*/
+
+
+.container-fluid .thenewest-text-two{
+    display: flex;
+    box-sizing: border-box;
+    width:1110px;
+    margin:0 auto;
+    padding-bottom:15px;
+   
+    
+}
+.container-fluid .thenewest-text-two .newest-img{
+   width:691px;
+   height:590px;
+   margin-left:-216px;
+   padding-top:15px;
+   padding-right:47.5px;
+   
+   
+}
+.container-fluid .thenewest-text-two .newest-img img{
+    width:100%;
+
+}
+.container-fluid .thenewest-text-two .newest-titel{
+    padding-left:47.5px;
+}
+
+.container-fluid .thenewest-text-two .newest-titel 
+h1{
+        padding-top:202px;
+        font-family:"Manrope";
+        width:540px;
+        height:120px;
+        font-size:46px;
+        line-height:60px;
+        font-weight:800;
+        padding-bottom:15px;
+        
+}              
+.container-fluid .thenewest-text-two .newest-titel p{
+    width:540px;
+    height:132px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:33px;
+    font-weight:400;
+    color:#9497A1;
+    font-size:20px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-bottom:30px;
+}
+/* ========================================== */
+/* ====this is section card tow */
+.container-fluids{
+    width:100%;
+    background-color: #F0F9FF;
+}
+.container-fluids .container .text-glad{
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom:25px ;
+    width:730px;
+    height:60px;
+    margin: 0 auto;
+} 
+.container-fluids .container .text-glad h1{
+    font-family:"Manrope";
+    font-size:46px;
+    font-weight:800;
+    line-height:60px;
+    text-align: center;
+}
+.container-fluids .container .box-card{
+    display: flex;
+    gap:30px;
+    padding-top:25px;
+    padding-bottom:65px;
+  
+}
+.container-fluids .container .box-card .box-1{
+    width: 350px;
+    height:331px;
+    background-color:white;
+    padding:35px;
+    border-radius:6px;
+}
+.container-fluids .container .box-card .box-1 span{
+    font-family:"Open Sans";
+    font-size:14px;
+    line-height:24px;
+    font-style:"Regular";
+    color: #9497A1;
+    letter-spacing:-1.5%;
+
+
+}
+.container-fluids .container .box-card .box-1 h1{
+    font-family:"Manrope";
+    font-size:22px;
+    font-weight:700;
+    line-height:33px;
+    letter-spacing:-1.5%;
+    color:black;
+    padding-top:20px;
+    padding-bottom:16px;
+}
+.container-fluids .container .box-card .box-1 p{
+     font-family:"Open Sans";
+     font-size:16px;
+     line-height:28px;
+     letter-spacing:-1.5%;
+     color:#9497A1;
+     padding-bottom:19px;
+}
+.container-fluids .container .box-card .box-1 a{
+    text-decoration:none;
+    color:#185CFF;
+    font-family: "Manrope";
+    font-size:14px;
+    line-height:24px;
+    letter-spacing:-1.5%;
+    padding-right:25px;
+
+
+}
+.container-fluids .container .button{
+    text-align: center;
+    padding-bottom: 100px;
+}
+/* =========================================== */
+/* --------this is section truted-text */
+.container .truted-text{ 
+}
+.container .truted-text .truted-titele{
+    width:445px;
+    height:120px;
+    display: flex;
+}
+.container .truted-text .truted-titele h1{
+   
+    
+    justify-content: flex-start;
+    padding-top:100px;
+    padding-bottom:60px;
+    Font-family:"Manrope";
+    Font-size: 46px;
+    Line-height: 60px;
+    font-weight:800;
+    Line-height: 95%;
+    Letter-spacing: -1.5%;
+   
+}
+.container .truted-text .icon{
+ margin-left:900px;
+ display: flex;
+ gap:10px;
+}
+.container .truted-text .icon-1{
+    width:110px;
+    height:60px;
+    border-radius:20px;
+    text-align: center;
+    background-color:#F0F9FF ;
+} 
+.container .truted-text .icon-1 i{
+    text-align: center;
+}
+
+.container .man-card{
+    display: flex;
+    padding-top:150px ;
+    gap:30px;
+    padding-bottom:100px;
+
+}
+.container .man-card .box-1{
+    width:540px;
+    height:309px;
+    border-radius:6px;
+    gap:20px;
+    padding:35px;
+    box-shadow: 0px 4px 12px 0px rgba(12, 68, 204, 0.1);
+
+   
+}
+.container .man-card .box-1 img{
+   margin-top:-255px;
+}
+.container .man-card .box-1 p{
+    width:470px;
+    height: 112px;
+    color: #9497A1;
+    font-style: "Regular";
+    font-family:"Open Sans";
+    font-size:16px;
+    line-height:28px;
+    letter-spacing:-1.5%;
+    padding-top:75px;
+}
+.container .man-card .box-1 span{
+    display: block;
+    color: black;
+    font-style: "Regular";
+    font-family:"Open Sans";
+    font-size:16px;
+    font-weight:700;
+    line-height:28px;
+    letter-spacing:-1.5%;
+    padding-top:35px;
+
+}
+.container .man-card .box-1 .spann{
+    display: block;
+    color: #9497A1;
+    font-style: "Regular";
+    font-family:"Open Sans";
+    font-size:16px;
+    line-height:28px;
+    letter-spacing:-1.5%;
+    padding-top:6px;
+}
+/* ========================================= */
+/* ---------this is the section overviwe---------------- */
+.container-fluid-overview{
+    background-color: #185CFF;
+   
+    margin-bottom:12px;
+    
+  
+}
+.container-fluid-overview .container .warp-view{
+    display: flex;
+    justify-content: space-around;
+}
+.container-fluid-overview .container .warp-view .item1{
+     padding-top:70px;
+     
+}
+.container-fluid-overview .container .warp-view .item1 h1{
+    padding-top:70px;
+    padding-bottom:10px;
+    Font-family:"Manrope";
+    Font-size: 56px;
+    Line-height: 112px;
+    font-weight:800;
+    Line-height: 95%;
+    Letter-spacing: -2.5%;
+    color:white;
+}
+
+.container-fluid-overview .container .warp-view .item1 p{
+    padding-top:10px;
+    padding-bottom:70px;
+    Font-family:"Open Sans";
+    Font-size: 14px;
+    Line-height: 112px;
+    font-weight:800;
+    Line-height: 95%;
+    Letter-spacing: -2.5%;
+    color:white;
+}
+/* ==================================================*/
+/*-- this is section contact us --*/
+.bg{
+    background-color:#F1F6FA ;
+}
+.warp-contact{
+    display: flex;
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.container .warp-contact .contact-text .cot-titel{
+    width:540px;
+    height:168px;
+    Font-family:"Manrope";
+    Font-size: 38px;
+    font-weight:800;
+    Line-height:56px;
+    Letter-spacing:-0.01em;
+    color:black;
+}
+.container .warp-contact .contact-text .cot-titel-p{
+    width:540px;
+    height:56px;
+    padding-top:24px;
+    padding-bottom:80px;
+    Font-family:"Open sans";
+    Font-size: 16px;
+    Line-height: 28px;
+    font-weight:400;
+    Letter-spacing:-0.01em;
+    color: #9497A1;
+
+}
+.container .warp-contact .contact-text .text {
+    padding-bottom:24px;
+}
+.container .warp-contact .contact-text .cot-email{
+    Font-family:"Open sans";
+    Font-size: 16px;
+    Line-height: 28px;
+    font-weight:400;
+    Letter-spacing:-0.01em;
+    color: #9497A1;
+    
+    
+  
+   
+}
+.container .warp-contact .contact-text .cot-p{
+    Font-family:"Open sans";
+    Font-size: 16px;
+    Line-height: 28px;
+    font-weight:700;
+    Letter-spacing:-0.01em;
+    color:  #292D33;
+    
+}
+.form-contact-us{
+    margin-top:0px;
+    margin-left:125px;
+    width:445px;
+    height:593px;
+    background-color:white;
+    padding:50px;
+    border-radius: 6px;
+}
+.form-contact-us h1{
+    Font-family:"Manrope";
+    Font-size: 30px;
+    font-weight:800;
+    Line-height:40px;
+    Letter-spacing:-0.01em;
+    color:black;
+}
+.form-contact-us .fields-us{
+    width:345px;
+    height:296px;
+    padding-top:30px;
+}
+.form-contact-us .fields-us .text-field{
+    padding-top:20px;
+    border-bottom:2px solid gainsboro;
+}
+.form-contact-us .fields-us p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+}
+.form-contact-us .fields-us span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+
+}
+.form-contact-us .fields-us .butt {
+   margin-left:258px;
+   padding-top:83px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+   color: #FFFFFF;
+  
+
+}
+
+/* ============this is section subcribe================== */
+.sub-bg{
+    background-color: #185CFF;
+}
+.warp-sud{
+    display: flex;
+}
+
+.container .sub-text h1{
+    padding-top:80px;
+    padding-bottom:12px;
+    width: 511px;
+    height: 56px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 56px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+
+.container .sub-text p{
+    width: 540px;
+    height: 66px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    padding-top:12px;
+    padding-bottom:80px;
+}
+.sub-input{
+   
+    margin-left:154px;
+    margin-top:126px;
+    margin-bottom:126px;
+   
+}
+.input-group {
+    display: flex;
+    background-color:#C9DCEC ;
+    border-radius:6px;
+}
+input{
+    width:320px;
+    height:54px;
+    padding-left:25px;
+    border-radius:6px 0px 0px 6px;
+    background-color: #C9DCEC;
+    font-family: 'Open Sans';
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+    border:none;
+}
+label{
+    padding:20px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    border:none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
